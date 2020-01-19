@@ -1,0 +1,16 @@
+{
+  "name": "globalize-compiler-sandbox",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "3.0.0",
+    "globalize-compiler": "1.0.0",
+    "webpack": "4.25.1",
+    "webpack-cli": "3.3.10"
+  },
+  "dependencies": {
+    "cldr-data": "36.0.0",
+    "globalize": "1.4.2"
+  }
+}
