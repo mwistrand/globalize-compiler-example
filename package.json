@@ -1,11 +1,14 @@
 {
   "name": "globalize-compiler-sandbox",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "build:globalize": "webpack --env.globalize"
   },
   "devDependencies": {
     "clean-webpack-plugin": "3.0.0",
     "globalize-compiler": "1.0.0",
+    "imports-loader": "0.8.0",
+    "lodash.merge": "^4.6.2",
     "webpack": "4.25.1",
     "webpack-cli": "3.3.10"
   },
