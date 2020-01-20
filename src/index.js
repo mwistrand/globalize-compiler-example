@@ -7,7 +7,10 @@ if (cldrData) {
 	Globalize.load(cldrData);
 }
 
+const date = new Date(2019, 3, 2);
+
 [
+	Globalize.formatDate(date, {datetime: 'long'}),
 	Globalize.dateFormatter({datetime: 'medium'})(new Date()),
 	Globalize.dateToPartsFormatter()(new Date()),
 	Globalize.dateParser({skeleton: "GyMMMd"})("Nov 30, 2010 AD"),

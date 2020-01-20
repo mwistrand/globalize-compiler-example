@@ -14,6 +14,7 @@ const BASE_PATH = process.cwd();
 
 // The methods in src/index.js are hard-coded here to simplify the example.
 const GLOBALIZE_STRINGS = [
+	'Globalize.formatDate(date, {datetime: "long"})',
 	'Globalize.dateFormatter({datetime: "medium"})(new Date())',
 	'Globalize.dateToPartsFormatter()(new Date())',
 	'Globalize.dateParser({skeleton: "GyMMMd"})("Nov 30, 2010 AD")',
